@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers from 0 to 9.
+ * main - print a..z in reverse
  *
- * Return: Always 0 (Success)
+ * Return : give back 0 (success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 48; i < 58; i++)
+	for (i = 122; i <= 97; i--)
 	{
 		putchar(i);
 	}
 	putchar('\n');
 	return (0);
 }
-
