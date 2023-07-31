@@ -7,7 +7,7 @@
 * @month: month in number format
 * @day: day of month
 * @year: year
-* Return: void
+* Return: voi to show there is successed
 */
 
 void print_remaining_days(int month, int day, int year)
@@ -16,7 +16,7 @@ void print_remaining_days(int month, int day, int year)
 	{
 	if (month >= 3 day >= 60)
 	{
-	day++; 
+	day++;
 	}
 
 	printf("Day of the year: %d\n", day);
