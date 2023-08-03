@@ -8,29 +8,21 @@
  */
 int main(void)
 {
-	int i;
-	char FizzBuzz[] = "FizzBuzz";
-	char Fizz[] = "Fizz";
-	char Buzz[] = "Buzz";
+	int num;
 
-	for (i = 1; i <= 100; i++)
+	for (num = 1; num < 101; num++)
 	{
-		if (i % 15 == 0)
-		{
-			printf("%s ", FizzBuzz);
-		}
-		else if (i % 3 == 0)
-		{
-			printf("%s ", Fizz);
-		}
-		else if (i % 5 == 0)
-		{
-			printf("%s ", Buzz);
-		}
+		if (num % 15 == 0)
+			printf("FizzBuzz");
+		else if (num % 3 == 0)
+			printf("Fizz");
+		else if (num % 5 == 0)
+			printf("Buzz");
 		else
-		{
-			printf("%i ", i);
-		}
+			printf("%d", num);
+
+		if (num != 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
