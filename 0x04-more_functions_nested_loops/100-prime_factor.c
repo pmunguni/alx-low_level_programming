@@ -13,7 +13,7 @@ long largestfactor(long number)
 	while (number >= largestfactor)
 	{
 		if (number < 0)
-			printf("please give positive number");
+			printf("please give positive number\n");
 		if (number % largestfactor == 0)
 		{
 			number /= largestfactor;

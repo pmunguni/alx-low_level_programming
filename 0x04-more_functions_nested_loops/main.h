@@ -1,6 +1,7 @@
 #ifndef main_h
 #define main_h
 void print_triangle(int size);
+long largestfactor(long number);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
