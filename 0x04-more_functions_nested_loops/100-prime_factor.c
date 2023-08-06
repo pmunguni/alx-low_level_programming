@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * largestfactor - prints the the largest factor
+ * largestfactor- prints the the largest factor
  * @number: the number to be cheked
  *
- * Return; give bak the largest prime factor
+ * Return: give bak the largest prime factor
  */
 long largestfactor(long number)
 {
@@ -13,7 +13,9 @@ long largestfactor(long number)
 	while (number >= largestfactor)
 	{
 		if (number < 0)
+		{
 			printf("please give positive number\n");
+		}
 		if (number % largestfactor == 0)
 		{
 			number /= largestfactor;
