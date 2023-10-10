@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * rev_string - Reverses a string in place.
@@ -18,7 +18,7 @@ void rev_string(char *s)
     while (end > s)
     {
         end--;
-        putchar(*end);
+        _putchar(*end);
     }
-    putchar('\n');
+    _putchar('\n');
 }
