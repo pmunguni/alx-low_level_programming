@@ -6,19 +6,17 @@
  */
 void rev_string(char *s)
 {
-    char *end = s;
+char *end = s;
 
-    // Find the end of the string
-    while (*end != '\0')
-    {
-        end++;
-    }
+while (*end != '\0')
+{
+end++;
+}
 
-    // Print the reversed string
-    while (end > s)
-    {
-        end--;
-        _putchar(*end);
-    }
-    _putchar('\n');
+while (end > s)
+{
+end--;
+_putchar(*end);
+}
+_putchar('\n');
 }
